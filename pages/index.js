@@ -25,7 +25,7 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/public/pedders-favicon.png"
+            src="/peddlers-favicon.png"
             alt="Black Jade Tile"
             width={180}
             height={180}
