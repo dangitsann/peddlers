@@ -25,7 +25,7 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/pedders-favicon.png"
+            src="/public/pedders-favicon.png"
             alt="Black Jade Tile"
             width={180}
             height={180}
@@ -35,7 +35,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="/about.js"
+            href="/about"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
