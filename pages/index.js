@@ -28,20 +28,20 @@ export default function Home() {
             src="/pedders-favicon.png"
             alt="Black Jade Tile"
             width={180}
-            height={37}
+            height={180}
             priority
           />
         </div>
 
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/about.js"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
+              About 
             </h2>
             <p className={inter.className}>
               Find in-depth information about Next.js features and&nbsp;API.
@@ -55,7 +55,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
+              Menu 
             </h2>
             <p className={inter.className}>
               Learn about Next.js in an interactive course with&nbsp;quizzes!
@@ -69,7 +69,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
+              Build Process
             </h2>
             <p className={inter.className}>
               Discover and deploy boilerplate example Next.js&nbsp;projects.
@@ -83,7 +83,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
+              Contact 
             </h2>
             <p className={inter.className}>
               Instantly deploy your Next.js site to a shareable URL
