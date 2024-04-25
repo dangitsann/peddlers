@@ -4,13 +4,15 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link';
 
+/* eslint react/no-unescaped-entities */
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>{'Peddler's Paradise'}</title>
+        <title>{'Peddler's Paradise}</title>
         <meta name="description" content="Home tiki bar and lounge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/peddlers-favicon.png" />
